@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Flu Project Home</title>
+
+    <h1 class="ml6">
+      <span class="text-wrapper">
+        <span class="letters">The Flu Is A Big Deal</span>
+      </span>
+    </h1>
+    
+    <!-- New js Library Text Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.ml6 .letters');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline({loop: true})
+        .add({
+          targets: '.ml6 .letter',
+          translateY: ["1.1em", 0],
+          translateZ: 0,
+          duration: 750,
+          delay: (el, i) => 50 * i
+        }).add({
+          targets: '.ml6',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000
+        });
+    </script>
+    
+    <!-- Leaflet CSS & JS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Leaflet-Choropleth JavaScript -->
+    <script type="text/javascript" src="static/js/choropleth.js"></script>
+
+    <!-- Plotly JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  </head>
+  <body>
+
+    <!-- Start of navbar -->
+    <nav class="navbar">
+          <div>
+            <li class="nav-item">
+              <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/index.html">Home</a>
+              <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/maps.html">Maps</a>
+              <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/line.html">Line</a>
+              <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/bar.html">Bar</a>
+            </li>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+    <div>
+    <img class='img' src="https://www.xofluza.com/content/dam/gene/xofluza/patient/images/Mobile/Xofluza-Flu-Infographic-Visualization1.gif">
+    </div>
+
+  </body>
+</html>

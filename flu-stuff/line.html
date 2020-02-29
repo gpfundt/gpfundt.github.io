@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Flu Line</title>
+    <h1 class="ml6">
+      <span class="text-wrapper">
+        <span class="letters">The Flu Is A Big Deal</span>
+      </span>
+    </h1>
+    
+    <!-- New js Library Text Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.ml6 .letters');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline({loop: true})
+        .add({
+          targets: '.ml6 .letter',
+          translateY: ["1.1em", 0],
+          translateZ: 0,
+          duration: 750,
+          delay: (el, i) => 50 * i
+        }).add({
+          targets: '.ml6',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000
+        });
+    </script>
+
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- Plotly JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  </head>
+
+  <body>
+
+    <!-- Start of navbar -->
+    <nav class="navbar">
+      <div>
+        <li class="nav-item">
+            <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/index.html">Home</a>
+            <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/maps.html">Maps</a>
+            <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/line.html">Line</a>
+            <a class="nav-link" href="https://gpfundt.github.io/flu-stuff/bar.html">Bar</a>
+        </li>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+    
+    <!-- Map and char divs -->
+    <div class= "chart">
+      <div id="plot"></div>
+    </div>
+
+    <script type="text/javascript" src="static/js/logicline.js"></script>
+
+ 
+    <!-- Start of footer -->
+    <!-- <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright Greta and Party Pat 2020
+      </p>
+    </footer> -->
+    <!-- End of footer -->
+
+  </body>
+</html>
