@@ -5,10 +5,6 @@ Flue Tracker
 To read about the project:https://github.com/gpfundt/flu-stuff/blob/master/README.md
 To view the site: https://gpfundt.github.io/flu-stuff/
 
-Weather Web Visualization Project
-To read about the project: 
-To view the site: https://gpfundt.github.io/d3-challenge/web-challenge/
-
 JavaScript Challenge
 To read about the project: 
 To view the site: https://gpfundt.github.io/javascript-challenge/UFO-level-2/
