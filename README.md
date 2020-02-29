@@ -7,7 +7,7 @@ To view the site: https://gpfundt.github.io/flu-stuff/
 
 Weather Web Visualization Project
 To read about the project: 
-To view the site: 
+To view the site: https://gpfundt.github.io/d3-challenge/web-challenge/
 
 JavaScript Challenge
 To read about the project: 
