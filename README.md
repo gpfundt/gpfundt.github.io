@@ -17,8 +17,5 @@ Leaflet Challenge
 To read about the project: 
 To view the site:https://gpfundt.github.io/map-vis/
 
-Plotly Challenge
-To read about the project:
-To view the site: https://gpfundt.github.io/js-visulizations/
 
 
