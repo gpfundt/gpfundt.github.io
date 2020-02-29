@@ -11,7 +11,7 @@ To view the site:
 
 JavaScript Challenge
 To read about the project: 
-To view the site: https://gpfundt.github.io/javascript-challenge/
+To view the site: https://gpfundt.github.io/javascript-challenge/UFO-level-2/
 
 D3 Challenge
 To read about the project: https://github.com/cecind123/D3-challenge
