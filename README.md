@@ -1,6 +1,6 @@
 # gpfundt.github.io
 Hi! Welcome to my GitHub.io repository. I have a few web based projects saved here. The link to each project is below:
-
+```
 Movie Slector
 Download and run Flask to connect the web based interface to the python ML code.
 To read about the project:https://github.com/gpfundt/movies-slector/blob/master/README.md
@@ -29,3 +29,5 @@ To view the site:
 Plotly Challenge
 To read about the project:
 To view the site: 
+
+```
