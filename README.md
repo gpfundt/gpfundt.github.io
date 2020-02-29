@@ -11,7 +11,7 @@ To view the site:
 
 JavaScript Challenge
 To read about the project: 
-To view the site: https://gpfundt.github.io/js-visulizations/
+To view the site: https://gpfundt.github.io/javascript-challenge/
 
 D3 Challenge
 To read about the project: https://github.com/cecind123/D3-challenge
@@ -23,6 +23,6 @@ To view the site:https://gpfundt.github.io/map-vis/
 
 Plotly Challenge
 To read about the project:
-To view the site: https://gpfundt.github.io/js-visulaization/
+To view the site: https://gpfundt.github.io/js-visulizations/
 
 
