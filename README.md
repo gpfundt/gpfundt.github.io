@@ -1,6 +1,6 @@
 # gpfundt.github.io
 Hi! Welcome to my GitHub.io repository. I have a few web based projects saved here. The link to each project is below:
-
+```
 Flue Tracker
 To read about the project:https://github.com/gpfundt/flu-stuff/blob/master/README.md 
 To view the site: https://gpfundt.github.io/flu-stuff/
@@ -17,5 +17,5 @@ Leaflet Challenge
 To read about the project: https://github.com/gpfundt/map-vis/README.md
 To view the site: https://gpfundt.github.io/map-vis/
 
-
+```
 
