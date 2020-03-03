@@ -10,11 +10,11 @@ To read about the project: https://github.com/gpfundt/javascript-challenge/blob/
 To view the site: https://gpfundt.github.io/javascript-challenge/UFO-level-2/
 
 D3 Challenge
-To read about the project: https://github.com/cecind123/D3-challenge/README.md 
+To read about the project: https://github.com/gpfundt/D3-challenge/README.md 
 To view the site: https://gpfundt.github.io/d3-challenge/
 
 Leaflet Challenge
-To read about the project: https://github.com/cecind123/map-vis/README.md
+To read about the project: https://github.com/gpfundt/map-vis/README.md
 To view the site: https://gpfundt.github.io/map-vis/
 
 
