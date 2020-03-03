@@ -11,7 +11,8 @@ D3 Challenge
 To read about the project: https://github.com/cecind123/D3-challenge/README.md To view the site: https://gpfundt.github.io/d3-challenge/
 
 Leaflet Challenge
-To read about the project: https://github.com/cecind123/map-vis/README.md  To view the site:https://gpfundt.github.io/map-vis/
+To read about the project: https://github.com/cecind123/map-vis/README.md
+n/To view the site: https://gpfundt.github.io/map-vis/
 
 
 
